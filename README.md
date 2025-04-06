@@ -24,14 +24,14 @@ A Telegram bot that monitors multiple trading signal groups, formats the signals
 
 1. Clone and setup:
 ```bash
-git clone [your-repo-url]
+git clone https://github.com/AviyaX/TelegramSignalForwardingBot.git
 cd telegramMsgForwardingBot
 python -m venv venv
 source venv/bin/activate  # On Windows use: .\venv\Scripts\activate
 pip install -r requirements.txt
 ```
 
-2. Create a `.env` file with your credentials:
+2. Create a `.env` file with your credentials (use .env.example as a template):
 ```env
 # Telegram API Credentials
 API_ID=your_api_id
